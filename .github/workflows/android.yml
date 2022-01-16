@@ -26,6 +26,6 @@ jobs:
       run: gradle wrapper && ./gradlew build
     - uses: actions/upload-artifact@v2
       with:
-        name: apk
+        name: Getting Ready your apk
         run: ls ./app/build/outputs/apk/
         path: ./app/build/outputs/apk/
